@@ -3,7 +3,7 @@
 dir=$PWD
 
 # 复制目录到 ~/.aria2
-mkdir -r ~/.aria2
+mkdir -p ~/.aria2
 cp -r ./* ~/.aria2
 cd ~/.aria2
 
